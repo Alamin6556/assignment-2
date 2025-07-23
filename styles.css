@@ -230,3 +230,40 @@ body {
   align-items: center;
   gap: 23px;
 }
+
+/* Footer section start */
+.footer {
+  max-width: 1140px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  max-width: 359px;
+}
+.logo-description {
+  text-align: left;
+  margin-top: 16px;
+}
+
+.footer-links-1 ul li,
+.footer-links-2 ul li {
+  list-style: none;
+}
+.footer-link a {
+  text-decoration: none;
+  color: rgba(107, 114, 128, 1);
+}
+.footer-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  max-height: fit-content;
+}
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
