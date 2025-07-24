@@ -20,12 +20,12 @@ body {
   font-style: normal;
 }
 .title {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
 }
 .description {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -43,35 +43,34 @@ body {
 
 .nav-items-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 3rem;
 }
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 590px;
   max-width: 1140px;
-  margin: 30px auto 120px;
+  margin: 1.875rem auto 7.5rem;
 }
 
 /* Banner section start */
 
 .banner-title {
-  font-size: 65px;
+  font-size: 4.063rem;
   font-weight: 700;
   color: #000000;
   line-height: auto;
-  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 .orange {
   color: #e95a08;
 }
 
 .banner-description {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -86,8 +85,8 @@ body {
   align-items: end;
   gap: 0;
   max-width: 1140px;
-  height: 461px;
-  margin: 0 auto 120px;
+  height: 28.8125rem;
+  margin: 0 auto 7.5rem;
 }
 
 /* plant section start */
@@ -111,17 +110,17 @@ body {
 
 .card-image {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .card-name {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   color: rgba(17, 17, 17, 1);
   text-align: center;
 }
 
 .card-price {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   color: rgba(17, 17, 17, 1);
 }
@@ -129,9 +128,9 @@ body {
   background-color: #e95a08;
   color: #ffffff;
   border: none;
-  font-size: 16;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 16px 50px;
+  padding: 1rem 3.125rem;
   width: 100%;
 }
 
@@ -140,32 +139,32 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .card-description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
+  gap: 1.875rem;
 }
 .card {
-  max-width: 270px;
+  max-width: 16.875rem;
 }
 
 .plant-card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 1.25rem;
 }
 .plants {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 3.125rem;
   max-width: 1140px;
-  margin: 0 auto 210px;
+  margin: 0 auto 13.125rem;
 }
 
 /* Plant lover section start */
@@ -174,13 +173,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 3.75rem;
   max-width: 1140px;
-  margin: 0 auto 135px;
+  margin: 0 auto 8.4375rem;
+}
+.plant-lover-image-container {
+  position: relative;
+}
+
+.trusted-badge img {
+  height: 17.89rem;
+  width: 17.89rem;
+  position: absolute;
+  top: -7.9rem;
+  right: -7rem;
 }
 
 .plant-lover-items {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 /* Join section start */
@@ -189,7 +199,7 @@ body {
   background-image: url("./assets/news-letter-bg.png");
   background-size: cover;
   max-width: 1440px;
-  height: 533px;
+  height: 33.3125rem;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -210,7 +220,7 @@ body {
 
 .join-input input {
   border: none;
-  padding: 16px 540px 16px 20px;
+  padding: 1rem 33.75rem 1rem 1.25rem;
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
 }
@@ -218,32 +228,31 @@ body {
 .join-button button {
   background-color: #e95a08;
   border: none;
-  padding: 16px 50px;
+  padding: 1rem 3.125rem;
   color: #ffffff;
 }
 
 .join-info {
-  /* width: 830px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 23px;
+  gap: 1.4375rem;
 }
 
 /* Footer section start */
 .footer {
   max-width: 1140px;
-  margin: 50px auto;
+  margin: 3.125rem auto;
   display: flex;
   justify-content: space-between;
 }
 .footer-logo {
-  max-width: 359px;
+  max-width: 22.5rem;
 }
 .logo-description {
   text-align: left;
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 .footer-links-1 ul li,
@@ -258,12 +267,98 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   max-height: fit-content;
 }
 .footer-ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 32px;
+  gap: 2rem;
+}
+
+/* Latest deal section start */
+
+.deal-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.deal-description {
+  text-align: center;
+}
+.latest-deals {
+  max-width: 1140px;
+  margin: 0 auto 7.5rem;
+  text-align: center;
+}
+
+/* Offer section start */
+
+.offer {
+  max-width: 1140px;
+  height: 26.5rem;
+  margin: 0 auto 7.5rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.offer-image-container-1,
+.offer-image-container-2,
+.offer-image-container-3 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.63rem;
+}
+
+.offer-image-container-1 {
+  background-image: url("./assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.88rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.offer-image-container-3 {
+  background-image: url("./assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.37rem;
+  grid-column: 2;
+  grid-row: 1 / span2;
+  height: calc(100% - 1.5rem);
+}
+
+.offer-image-container-2 {
+  background-image: url("./assets/deal-ana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.88rem;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.offer-image-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.offer-image-title-large {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.offer-image-anchor-large a,
+.offer-image-anchor a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
 }
