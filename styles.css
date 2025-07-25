@@ -232,6 +232,9 @@ body {
   .plant-lover-title {
     font-size: 24px;
   }
+  .plant-lover-image-container img {
+    width: 100%;
+  }
 }
 
 /* Join section start */
@@ -281,7 +284,8 @@ body {
 
 @media screen and (max-width: 576px) {
   .join {
-    max-width: 100vw;
+    max-width: 393px;
+    margin: 0 auto 0.5px;
     height: 276px;
   }
   .join-title {
@@ -339,6 +343,8 @@ body {
   .footer {
     flex-direction: column;
     gap: 20px;
+    max-width: 393px;
+    margin: 0 auto;
     /* justify-content: start; */
   }
   .footer-ul {
@@ -366,7 +372,8 @@ body {
 
 @media screen and (max-width: 576px) {
   .latest-deals {
-    max-width: ;
+    max-width: 361px;
+    margin: 0 auto 143px;
   }
 }
 /* Offer section start */
@@ -446,6 +453,8 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     height: 581px;
+    max-width: 361px;
+    margin: 0 auto 40px;
   }
   .offer-image-container-1,
   .offer-image-container-2,
