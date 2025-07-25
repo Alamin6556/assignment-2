@@ -232,6 +232,9 @@ body {
   .card-button {
     font-size: 16px;
   }
+  .card-button {
+    padding: 1rem;
+  }
 }
 /* Plant lover section start */
 
