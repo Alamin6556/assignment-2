@@ -59,15 +59,21 @@ body {
 /* Responsive Navbar */
 
 @media screen and (max-width: 576px) {
+  .navbar {
+    max-width: 361px;
+    margin: 20px auto 28px;
+  }
+  /* responsive shared styles */
   .hide {
     display: none;
   }
-  .navbar {
-    max-width: 361px;
-    margin: 1.875rem auto 7.5rem;
+  .small-desc {
+    font-size: 14px;
+  }
+  .small-title {
+    font-size: 24px;
   }
 }
-
 /* Banner section start */
 
 .banner-title {
@@ -105,9 +111,17 @@ body {
   .banner {
     flex-direction: column-reverse;
     max-width: 361px;
+    margin: 0 auto 65px;
+    gap: 28px;
+  }
+  .banner-title {
+    font-size: 24px;
   }
   .banner-image-container img {
     width: 100%;
+  }
+  .banner-description {
+    font-size: 14px;
   }
 }
 
@@ -196,6 +210,16 @@ body {
   }
   .plant-card-container {
     grid-template-columns: repeat(2, 1fr);
+    max-width: 362px;
+    margin: 0 auto 42px;
+  }
+  .plant-title {
+    font-size: 24px;
+  }
+  .card-price,
+  .card-name,
+  .card-button {
+    font-size: 16px;
   }
 }
 /* Plant lover section start */
@@ -228,10 +252,12 @@ body {
   .plant-lover {
     flex-direction: column;
     max-width: 361px;
+    margin: 0 auto 143px;
   }
   .plant-lover-title {
     font-size: 24px;
   }
+
   .plant-lover-image-container img {
     width: 100%;
   }
@@ -287,6 +313,9 @@ body {
     max-width: 393px;
     margin: 0 auto 0.5px;
     height: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .join-title {
     font-size: 20px;
@@ -297,9 +326,15 @@ body {
     color: rgba(0, 0, 0, 0.5);
     text-align: left;
     height: 100%;
+    width: 100%;
+  }
+  .input-field {
+    font-size: 16px;
   }
   .join-info {
     border: none;
+    width: 321px;
+    text-align: center;
   }
 }
 /* Footer section start */
@@ -352,6 +387,11 @@ body {
   }
   .footer-icons-container {
     justify-content: flex-start;
+  }
+  .logo-description p,
+  .footer-link {
+    font-size: 16px;
+    font-weight: 400;
   }
 }
 
@@ -462,5 +502,13 @@ body {
     grid-column: auto;
     grid-row: auto;
     border-radius: 14px;
+  }
+  .offer-image-title,
+  .offer-image-title-large {
+    font-size: 20px;
+  }
+  .offer-image-anchor,
+  .offer-image-anchor-large {
+    font-size: 16px;
   }
 }
