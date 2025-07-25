@@ -56,6 +56,18 @@ body {
   margin: 1.875rem auto 7.5rem;
 }
 
+/* Responsive Navbar */
+
+@media screen and (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+  .navbar {
+    max-width: 361px;
+    margin: 1.875rem auto 7.5rem;
+  }
+}
+
 /* Banner section start */
 
 .banner-title {
@@ -87,6 +99,16 @@ body {
   max-width: 1140px;
   height: 28.8125rem;
   margin: 0 auto 7.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column-reverse;
+    max-width: 361px;
+  }
+  .banner-image-container img {
+    width: 100%;
+  }
 }
 
 /* plant section start */
@@ -167,6 +189,15 @@ body {
   margin: 0 auto 13.125rem;
 }
 
+@media screen and (max-width: 576px) {
+  .plant-info {
+    max-width: 361px;
+    margin: 0 auto;
+  }
+  .plant-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /* Plant lover section start */
 
 .plant-lover {
@@ -193,6 +224,16 @@ body {
   margin-top: 1.25rem;
 }
 
+@media screen and (max-width: 576px) {
+  .plant-lover {
+    flex-direction: column;
+    max-width: 361px;
+  }
+  .plant-lover-title {
+    font-size: 24px;
+  }
+}
+
 /* Join section start */
 
 .join {
@@ -214,8 +255,6 @@ body {
 }
 .join-title {
   color: #ffffff;
-  /* text-align: center; */
-  /* width: 586px; */
 }
 
 .join-input input {
@@ -237,9 +276,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.4375rem;
+  gap: 1.5rem;
 }
 
+@media screen and (max-width: 576px) {
+  .join {
+    max-width: 100vw;
+    height: 276px;
+  }
+  .join-title {
+    font-size: 20px;
+  }
+  .join-input input {
+    border: none;
+    padding: 16px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    height: 100%;
+  }
+  .join-info {
+    border: none;
+  }
+}
 /* Footer section start */
 .footer {
   max-width: 1140px;
@@ -277,6 +335,20 @@ body {
   gap: 2rem;
 }
 
+@media screen and (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: start; */
+  }
+  .footer-ul {
+    padding: 0;
+  }
+  .footer-icons-container {
+    justify-content: flex-start;
+  }
+}
+
 /* Latest deal section start */
 
 .deal-title {
@@ -292,6 +364,11 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+  .latest-deals {
+    max-width: ;
+  }
+}
 /* Offer section start */
 
 .offer {
@@ -361,4 +438,20 @@ body {
   font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .offer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    height: 581px;
+  }
+  .offer-image-container-1,
+  .offer-image-container-2,
+  .offer-image-container-3 {
+    grid-column: auto;
+    grid-row: auto;
+    border-radius: 14px;
+  }
 }
