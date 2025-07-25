@@ -64,6 +64,7 @@ body {
   .navbar {
     max-width: 361px;
     margin: 20px auto 28px;
+    padding: 0 16px;
   }
   /* responsive shared styles */
   .hide {
@@ -121,6 +122,9 @@ body {
   }
   .banner-image-container img {
     width: 100%;
+  }
+  .banner-info {
+    padding: 0 16px;
   }
   .banner-description {
     font-size: 14px;
@@ -206,14 +210,19 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .plants {
+    margin: 0 auto 42px;
+  }
   .plant-info {
     max-width: 361px;
     margin: 0 auto;
+    padding: 0 16px;
   }
   .plant-card-container {
     grid-template-columns: repeat(2, 1fr);
     max-width: 362px;
     margin: 0 auto 42px;
+    padding: 0 10px;
   }
   .plant-title {
     font-size: 24px;
@@ -255,6 +264,7 @@ body {
     flex-direction: column;
     max-width: 361px;
     margin: 0 auto 143px;
+    padding: 0 10px;
   }
   .plant-lover-title {
     font-size: 24px;
@@ -315,14 +325,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   height: 141px;
   max-width: 830px;
 }
 
 @media screen and (max-width: 576px) {
   .join {
-    max: width 100vw;
+    max: width 90vw;
     margin: 0 auto 0.5px;
     height: 276px;
     display: flex;
@@ -341,12 +351,13 @@ body {
     width: 100%;
   }
   .input-field button {
-    max-width: 103px;
+    width: 100%;
+    max-width: 90px;
     padding: 16px 20px;
   }
   .input-field {
     width: 100%;
-    max-width: calc(100vw - 32px);
+    max-width: calc(90vw - 32px);
     font-size: 16px;
   }
   .join-info {
@@ -399,7 +410,7 @@ body {
     gap: 20px;
     max-width: 393px;
     margin: 0 auto;
-    /* justify-content: start; */
+    padding: 0 10px;
   }
   .footer-ul {
     padding: 0;
@@ -433,6 +444,9 @@ body {
   .latest-deals {
     max-width: 361px;
     margin: 0 auto 143px;
+  }
+  .deal-description {
+    padding: 0 10px;
   }
 }
 /* Offer section start */
@@ -514,6 +528,7 @@ body {
     height: 581px;
     max-width: 361px;
     margin: 0 auto 40px;
+    padding: 0 10px;
   }
   .offer-image-container-1,
   .offer-image-container-2,
